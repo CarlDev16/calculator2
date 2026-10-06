@@ -1,0 +1,80 @@
+
+.App {
+  box-sizing: border-box;
+  text-align: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  background-color: #f3eee5;
+  font-family: Arial, sans-serif;
+}
+
+.Calculator {
+  width: 420px;
+  margin: auto;
+  border: 2px solid #006241;
+  border-radius: 18px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Name */
+.Name {
+  padding: 16px;
+  background-color: #006241;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Display */
+.Display {
+  box-sizing: border-box;
+  height: 80px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border: none;
+  border-bottom: 4px solid #d4a373;
+  background-color: #f8f4ed;
+  color: #3e2723;
+  font-size: 2.2em;
+  text-align: right;
+}
+
+/* Keypad */
+.Keypad {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 6px;
+  background-color: #006241;
+}
+
+/* Buttons */
+.Button {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: #f5f1e8;
+  color: #3e2723;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.Button:hover {
+  background-color: #e8dfd0;
+}
+
+.Button:active {
+  background-color: #d4a373;
+  transform: scale(0.97);
+}
+
