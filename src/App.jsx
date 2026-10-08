@@ -119,7 +119,7 @@ function App() {
           <CalcButton buttonLabel={3} onCLick={numbuttonClickHandler} />
           <CalcButton buttonLabel={'-'} onCLick={operationButtonClickHandler} />
 
-          <CalcButton buttonLabel={"CLR"} buttonClassName="ClrButton" onCLick={clearButtonClickHandler} />
+          <CalcButton buttonLabel={"C"} buttonClassName="ClrButton" onCLick={clearButtonClickHandler} />
           <CalcButton buttonLabel={0} onCLick={numbuttonClickHandler} />
           <CalcButton buttonLabel={"="} buttonClassName="EqualButton" onCLick={equalButtonClickHandler} />
           <CalcButton buttonLabel={"+"} onCLick={operationButtonClickHandler} />
